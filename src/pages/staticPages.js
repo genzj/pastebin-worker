@@ -13,6 +13,7 @@ function indexPage(env) {
     .replaceAll("{{BASE_URL}}", env.BASE_URL)
     .replaceAll("{{REPO}}", env.REPO)
     .replaceAll("{{FAVICON}}", env.FAVICON)
+    .replaceAll("{{FAVICON_TYPE}}", env.FAVICON_TYPE)
 }
 
 export function getStaticPage(path, env) {
